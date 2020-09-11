@@ -1,6 +1,4 @@
-
 import { makeStyles } from '@material-ui/core/styles';
-
 
 export const useStyles = makeStyles({
   screen: {
@@ -13,7 +11,7 @@ export const useStyles = makeStyles({
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
     color: 'white',
     width: '240px',
-    textAlign: "end",
+    textAlign: 'end',
     fontSize: '45px',
     fontFamily: 'serif',
     height: 48,
@@ -58,15 +56,14 @@ export const useStyles = makeStyles({
     marginLeft: '-4px',
     width: '70px',
     padding: '0 30px',
-    display: "inline-block",
+    display: 'inline-block',
   },
 
-  root:{
+  root: {
     flexGrow: 1,
-    width: "1000px",
-    height: "100px",
-    marginLeft: "40%",
-    marginRight: "40%",
+    width: '1000px',
+    height: '100px',
+    marginLeft: '40%',
+    marginRight: '40%',
   },
-  
 });

@@ -5,7 +5,7 @@ import Calculator from './views/calculator';
 function App() {
   return (
     <div className="App">
-    <Calculator initialvalue="0"/>      
+      <Calculator initialvalue="0" />
     </div>
   );
 }
