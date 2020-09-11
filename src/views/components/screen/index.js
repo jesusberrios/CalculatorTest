@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Screen = (props) => {
-    const {value} = props;
+    const {value, classes} = props;
 
-    return(<div>
+    return(<div className={classes}>
      {value}
     </div>)
 }
