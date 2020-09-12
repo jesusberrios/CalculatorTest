@@ -5,7 +5,6 @@ const dividerSign = /%/gi;
 
 const evaluateExpression = (expression) => {
   const [first, second, ...others] = [...expression];
-
   if (first === '0' && !ALLOWED_CHARACTERS.includes(second)) {
     const removeFirst = [...expression].slice(1).join('');
     return evaluateExpression(removeFirst);
